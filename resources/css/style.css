@@ -1,0 +1,109 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.logo img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+nav span {
+  display: inline-flex;
+  padding: 20px 10px;
+  color: seashell;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+  text-align: right;
+}
+
+.background img {
+  margin-top: 70px;
+  height: 700px;
+  width: 1200px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: seashell;
+  background-color: black;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+  display: block;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  -webkit-margin-before: 1.33em;
+  -webkit-margin-after: 1.33em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  width: 1000px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.berry-blitz img, .spiced-rum img, .seasonal-donuts img, .myrtle-tea img, .bedford-bizarre img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.berry-blitz img, .spiced-rum img, .seasonal-donuts img {
+  margin right: 50px;
+}
+
+p {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+
+}
