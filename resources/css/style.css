@@ -1,16 +1,25 @@
+html {
+  vertical-align: baseline;
+  display: block;
+}
+
 body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
   margin: 0;
 }
 
-.header {
+div {
+  display: block;
+}
+
+header {
   display: flex;
   height: 69px;
+  flex-wrap: wrap;
   border-bottom: 1px solid seashell;
   background-color: black;
   position: fixed;
@@ -18,47 +27,64 @@ body {
   width: 100%;
 }
 
-.logo img {
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header img {
   margin-left: 10px;
   height: 50px;
+  margin-top: 9.5px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
+  text-align: right;
+  flex-grow: 1;
 }
 
-nav span {
+span {
   display: inline-flex;
   padding: 20px 10px;
-  color: seashell;
 }
 
 a {
   text-decoration: underline;
   color: seashell;
-  text-align: right;
 }
 
-.background img {
-  margin-top: 70px;
-  height: 700px;
+.main-container {
+  padding-top: 69px;
+  opacity: 0.9;
   width: 1200px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: auto;
+}
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+  width: 1200px;
 }
 
 .flex-container {
-  color: seashell;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content {
   background-color: black;
-  border: 1px solid red;
-  text-align: center;
+  height: 104px;
+  width: 1200px;
+  justify-content: center;
+  margin-top: 298px;
 }
 
 h2, h3, h4 {
     margin: 0;
-    padding: 5px;
+    padding: 10px;
 }
 
 h2 {
@@ -73,30 +99,27 @@ h4 {
   padding: 10px
 }
 
-.menu {
-  display: flex;
+#store {
+  height: 700px;
   width: 1000px;
-  flex-direction: row;
-  justify-content: space-between;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.flex-container-items {
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
-  margin-left: 300px;
-  margin-right: 300px;
 }
 
-.berry-blitz img, .spiced-rum img, .seasonal-donuts img, .myrtle-tea img, .bedford-bizarre img {
-  height: 200px;
+.item {
+  padding-right: 5px;
+}
+
+.item img {
+
   width: 300px;
-  margin-bottom: 10px;
-}
-
-.berry-blitz img, .spiced-rum img, .seasonal-donuts img {
-  margin right: 50px;
-}
-
-p {
+  height: 200px;
+  margin: 10px;
   display: block;
-  font-weight: bold;
-  text-align: center;
-
 }
