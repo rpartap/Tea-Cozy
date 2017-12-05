@@ -50,34 +50,27 @@ a {
 }
 
 .flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   color: seashell;
   background-color: black;
+  border: 1px solid red;
+  text-align: center;
 }
 
 h2, h3, h4 {
     margin: 0;
-    padding: 10px;
+    padding: 5px;
 }
 
 h2 {
   display: block;
-  -webkit-margin-before: 0.83em;
-  -webkit-margin-after: 0.83em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   font-weight: bold;
+  padding: 10px;
 }
 
 h4 {
   display: block;
-  -webkit-margin-before: 1.33em;
-  -webkit-margin-after: 1.33em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   font-weight: bold;
+  padding: 10px
 }
 
 .menu {
