@@ -68,12 +68,6 @@ a {
   width: 1200px;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .content {
   background-color: black;
   height: 104px;
@@ -117,9 +111,33 @@ h4 {
 }
 
 .item img {
-
   width: 300px;
   height: 200px;
   margin: 10px;
   display: block;
+}
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.location {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 259px;
+  padding-top: 5px;
+  background-color: black;
+  opacity: 1;
+  margin-right: 40px;
+}
+.flex-container-locations {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
 }
