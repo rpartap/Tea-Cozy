@@ -1,6 +1,8 @@
 html {
   vertical-align: baseline;
   display: block;
+  width: 1043;
+  height: 2461.97px;
 }
 
 body {
@@ -134,10 +136,41 @@ h4 {
   padding-top: 5px;
   background-color: black;
   opacity: 1;
-  margin-right: 40px;
 }
+
 .flex-container-locations {
   display: flex;
   padding: 5px;
   justify-content: center;
+}
+
+#downtown {
+  margin-right: 20px;
+}
+
+#bayside {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#crescent  {
+  margin-left: 20px;
+}
+
+.contact{
+  display: block;
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+}
+
+.contact h5 {
+  margin-top: 30.494px;
+  margin-bottom: 30.494px;
+}
+
+footer {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
 }
